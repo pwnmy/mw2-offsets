@@ -1,0 +1,36 @@
+enum game_data : uint32_t
+{
+        o_local_entity = 0x82A70,
+ 
+        o_local_index = 0x314E8,
+        o_local_index_pos = 0x2CC,
+ 
+        o_refdef = 0x11EB2720,
+ 
+        o_camera_base = 0x123CB770,
+        o_camera_pos = 0x1F8,
+ 
+        o_distribute = 0xA3098E0,
+        o_visible = 0x20CA910,
+        o_visible_offset = 0xA80,
+ 
+        o_bone_base = 0x2A8,
+        o_bone_size = 0x160,
+ 
+        o_game_mode = 0xE713714,
+ 
+        o_weapon_definition = 0x11E31990,
+ 
+        o_player_dead_1 = 0x589,
+        o_player_dead_2 = 0xDD4,
+        o_player_pos = 0x660,
+        o_player_size = 0x4458,
+        o_player_team = 0x42F2,
+        o_player_valid = 0x63C,
+        o_player_stance = 0xEE4,
+        o_player_weapon_index = 0x3E30,
+ 
+        o_name_array = 0x11ED0300,
+        o_name_array_padding = 0x4C70,
+        o_name_array_size = 0xE8,
+};

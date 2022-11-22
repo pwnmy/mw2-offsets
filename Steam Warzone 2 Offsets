@@ -1,0 +1,48 @@
+namespace offsets {
+        constexpr auto ref_def_ptr = 0x11C297A0;
+        constexpr auto Cg_t_ptr_base = 0x82B5F00;
+        constexpr auto Cg_t_ptr1 = 0x8503182;
+        constexpr auto Cg_t_ptr2 = 0x8D99E88;
+        constexpr auto name_array = 0x2BB85C20;
+        constexpr auto name_array_size = 0xE8;
+        constexpr auto R_AddObjectToScene = 0x55652AD;
+        constexpr auto Playerstate = 0x6DE78F0;
+        constexpr auto UnlockAll = 0x51F300;
+        constexpr auto loot = 0xB036750;
+        constexpr auto camera_base = 0x1213FF70;
+        constexpr auto camera_pos = 0x1F8;
+        constexpr auto local_index = 0xFE700;
+        constexpr auto local_index_pos = 0xFE700;
+        constexpr auto local_index_pos = 0x2CC;
+        constexpr auto recoil = 0x21490;
+        constexpr auto game_mode = 0xE44A2D8;
+        constexpr auto weapon_definitions = 0x11BA72D0; //bg_weaponCompleteDefs
+        constexpr auto distribute_SIG1 = 0x23FBCEC8;
+        constexpr auto distribute_SIG2 = 0xA07CEC8,
+        constexpr auto visible_offset_SIG1 = 0x209D090,
+        constexpr auto visible_offset_SIG2 = 0xA80;
+        constexpr auto visible_offset_addy = 0xA80;
+        constexpr auto visible_function = 0x209D090;
+        constexpr auto visible_function_xref = 0x20CB39E;
+        
+namespace player {
+                constexpr auto index_struct_size = 0x4410;
+                mconstexpr auto player_valid = 0xC3,
+                constexpr auto player_pos_SIG1 = 0x70;
+                constexpr auto player_pos_SIG2 = 0x70;
+                constexpr auto team = 0x4370;
+                constexpr auto player_stance = 0x864,
+                constexpr auto player_weapon_index = 0x3F8,
+                constexpr auto player_dead_1_SIG1 = 0x4390;
+                constexpr auto player_dead_2_SIG1 = 0x4307;
+                constexpr auto player_dead_1_SIG2 = 0x4390;
+                constexpr auto player_dead_2_SIG2 = 0x4307;
+ }
+ 
+namespace bones {
+                constexpr auto bone_base_SIG1_OFF = 0x2D790; // (Member in cg_t::ms_cgArray)
+                constexpr auto bone_size_SIG1 = 0x160;
+		constexpr auto bone_base_SIG2 = 0x2A8;
+		constexpr auto bone_size_SIG2 = 0x160;
+   }
+}
