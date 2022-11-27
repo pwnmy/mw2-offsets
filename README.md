@@ -5,7 +5,7 @@ All Warzone 2 Offsets\Signatures
 -Steam -BattleNet
 
 
-[Join My Discord](https://discord.gg/pwnmy)
+[Join My Discord](https://discord.gg/novacorp)
 
 
 All credit to: ***FaszosMazsi***
